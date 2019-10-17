@@ -31,10 +31,9 @@ class MainActivity : AppCompatActivity() {
         resultText2.text = randomInt2.toString()
 
         dicerolled.text = "Dice Rolled Successfully"
-
         Toast.makeText(this, "button clicked",
             Toast.LENGTH_SHORT).show()
-
+        total.text = "Total: "+(randomInt + randomInt1 + randomInt2).toString()
 
     }
 
